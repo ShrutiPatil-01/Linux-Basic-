@@ -2,104 +2,102 @@ Introduction
 This repository contains Top 50 Linux Commands You Must Know as a Regular User 🐧.
 
 Commands
-ls - view contents of directory (list)
+1.ls - view contents of directory (list)
 
-pwd - path of the current directory
+2.pwd - path of the current directory
 
-cd - change directory
+3.cd - change directory
 
-mkdir - make new directory
+4.mkdir - make new directory
 
-mv - move files / rename files
+5.mv - move files / rename files
 
-cp - copy files
+6.cp - copy files
 
-rm - remove files
+7.rm - remove files
 
-touch - create blank new file
+8.touch - create blank new file
 
-rmdir - delete directory
+9.rmdir - delete directory
 
-cat - list content of file to terminal
+10.cat - list content of file to terminal
 
-clear - clear terminal window
+11.clear - clear terminal window
 
-echo - move data into a file
+12.echo - move data into a file
 
-less - Read text file one screen at a time
+13.less - Read text file one screen at a time
 
-man - show manual of Linux commands
+14.man - show manual of Linux commands
 
-sudo - enables you to perform tasks that require administrative or root permissions
+15.sudo - enables you to perform tasks that require administrative or root permissions
 
-top - task manager in terminal
+16.top - task manager in terminal
 
-tar - used to archive multiple files into a tarball
+17.tar - used to archive multiple files into a tarball
 
-grep - used to searching words in specific files
+18.grep - used to searching words in specific files
 
-head - view first lines of any text file
+19.head - view first lines of any text file
 
-tail - view last lines of any text file
+20.tail - view last lines of any text file
 
-diff - compares the contents of two files line by line
+21.diff - compares the contents of two files line by line
 
-kill - used for killing unresponsive program
+22.kill - used for killing unresponsive program
 
-jobs - display all current jobs along with their statuses
+23.jobs - display all current jobs along with their statuses
 
-sort - is a command line utility for sorting lines of text files
+24.sort - is a command line utility for sorting lines of text files
 
-df - info about system disk
+25.df - info about system disk
 
-du - check how much space a file or directory takes
+26.du - check how much space a file or directory takes
 
-zip - to compress your files into a zip archive
+27.zip - to compress your files into a zip archive
 
-unzip - to extract the zipped files from a zip archive
+28.unzip - to extract the zipped files from a zip archive
 
-ssh - a secure encrypted connection between two hosts over and insecure network
+29.ssh - a secure encrypted connection between two hosts over and insecure network
 
-cal - shows calendar
+30.cal - shows calendar
 
-apt - command line tool for interaction with packaging system
+31.apt - command line tool for interaction with packaging system
 
-alias - custom shortcuts used to represent a command
+32.alias - custom shortcuts used to represent a command
 
-w - current user info
+33.w - current user info
 
-whereis - used to locate the binary, source, manual page files
+34.whereis - used to locate the binary, source, manual page files
 
-whatis - used to get one-line man page description
+35.whatis - used to get one-line man page description
 
-useradd - used to create a new user
+36.useradd - used to create a new user
 
-passwd - used to changing password of current user
+37.passwd - used to changing password of current user
 
-whoami - print current user
+38.whoami - print current user
 
-uptime - print current time when machine starts
+39.uptime - print current time when machine starts
 
-free - print free disk space info
+40.free - print free disk space info
 
-history - print used commands history
+41.history - print used commands history
 
-uname - print detailed information about your Linux system
+42.uname - print detailed information about your Linux system
 
-ping - to check connectivity status to a server
+43.ping - to check connectivity status to a server
 
-chmod - to change permissions of files and directories
+44.chmod - to change permissions of files and directories
 
-chown - to change ownership of files and directories
+45.chown - to change ownership of files and directories
 
-find - using find searches for files and directories
+46.find - using find searches for files and directories
 
-locate - used to locate a file, just like the search command in Windows
+47.locate - used to locate a file, just like the search command in Windows
 
-ifconfig - print ip address stuff
+48.ifconfig - print ip address stuff
 
-ip a - similar to ifconfig but shortest print
+49.ip a - similar to ifconfig but shortest print
 
-finger - gives you a short dump of info about a user
-
-Contribution 💡
+50.finger - gives you a short dump of info about a user
