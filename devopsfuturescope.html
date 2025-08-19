@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevopsFuturescope.org</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0; padding: 0;
+        background-color: #f5f7fa;
+        color: #333;
+    }
+    header {
+        background: purple;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    nav {
+        background: rgb(36, 4, 21);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    main {
+        padding: 2rem;
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        display: none;
+    }
+    h2 { color: purple; }
+    h3 { color: rgb(124, 6, 45);}
+    footer {
+        background-color: rgb(230, 6, 99);
+        color: bisque;
+        text-align: center;
+        padding: 1rem;
+        margin-top: auto;
+    }
+    ul { padding-left: 20px; }
+    #home { display: block; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>DevopsFuturescope.org</h1>
+    <p>Future of DevOps to Learn About all Syllabus</p>
+</header>
+
+<nav>
+    <a onclick="showSection('home')">Home</a>
+    <a onclick="showSection('linux')">Linux</a>
+    <a onclick="showSection('aws')">AWS</a>
+    <a onclick="showSection('cloud')">Cloud</a>
+    <a onclick="showSection('docker')">Docker</a>
+    <a onclick="showSection('kubernetes')">Kubernetes</a>
+    <a onclick="showSection('contact')">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<main id="home">
+    <h2>About This Website</h2>
+    <p>Welcome to <strong>DevopsFuturescope.org</strong>. This site provides insights, tools, and resources for understanding the world of DevOps.</p>
+    <p>Our goal is to help students, beginners, and professionals gain a deep understanding of modern DevOps tools, processes, and future trends.</p>
+</main>
+
+<!-- Linux Section -->
+<main id="linux">
+    <h2>📚 Linux Syllabus</h2>
+    <ul>
+        <li>Introduction to Linux - History, distributions, features</li>
+        <li>Basic Commands - File navigation, creation, editing</li>
+        <li>File System Structure - Directories and hierarchy</li>
+        <li>User & Group Management - Permissions, roles</li>
+        <li>File Permissions & Ownership - chmod, chown</li>
+        <li>Process Management - ps, top, kill</li>
+        <li>Package Management - apt, yum, dnf</li>
+        <li>Shell Scripting - Bash basics, loops, conditions</li>
+        <li>Networking in Linux - IP, ping, SSH, FTP</li>
+        <li>System Administration - Services, logs, cron jobs</li>
+        <li>Disk Management - Mounting, partitions</li>
+        <li>Security Basics - Firewalls, SSH security, updates</li>
+    </ul>
+
+    <h2>🖥 Introduction to Linux</h2>
+    <p>Linux is a free, open-source operating system based on Unix. It was created by <strong>Linus Torvalds</strong> in 1991 and has since become one of the most widely used systems in the world, powering everything from personal computers to servers, mobile devices, and supercomputers.</p>
+    <p>Linux is known for its <strong>stability, security, and flexibility</strong>, making it a favorite for developers, system administrators, and organizations. Unlike Windows or macOS, Linux is built around a powerful <strong>command-line interface (CLI)</strong>, giving users complete control over the system.</p>
+
+    <h3>Key Features of Linux:</h3>
+    <ul>
+        <li>Open-source and free to use</li>
+        <li>Highly customizable</li>
+        <li>Strong security and stability</li>
+        <li>Supports multiple users and multitasking</li>
+        <li>Wide community support</li>
+    </ul>
+    <p>Popular Linux distributions include <strong>Ubuntu</strong>, <strong>Fedora</strong>, <strong>Debian</strong>, <strong>CentOS</strong>, and <strong>Red Hat Enterprise Linux</strong>.</p>
+
+    <h2>🛠 Linux Architecture</h2>
+    <p>The Linux architecture follows a layered structure, consisting of the Hardware layer, Kernel, System Libraries, System Utility Programs, and Shell.</p>
+
+    <h3>1. Kernel</h3>
+    <p>The kernel is the core of the Linux operating system. It manages hardware resources, system calls, and process coordination. Types of kernels include:</p>
+    <ul>
+        <li>Monolithic Kernel</li>
+        <li>Microkernel</li>
+        <li>Exokernel</li>
+        <li>Hybrid Kernel</li>
+    </ul>
+
+    <h3>2. System Libraries</h3>
+    <p>These are special functions that provide programs and system utilities with access to kernel features without needing direct kernel code access.</p>
+
+    <h3>3. System Utility Programs</h3>
+    <p>Utilities that perform specific system-related tasks such as file management, disk partitioning, and network configuration.</p>
+
+    <h3>4. Hardware Layer</h3>
+    <p>Includes physical components like CPU, RAM, hard drives, and connected peripherals.</p>
+
+    <h3>5. Shell</h3>
+    <p>The shell acts as an interface between the user and the kernel. Types include:</p>
+    <ul>
+        <li>Graphical Shell – GUI-based interaction</li>
+        <li>Command-Line Shell – CLI-based interaction</li>
+    </ul>
+    <p>Graphical shells are easier for beginners, while command-line shells are more efficient for advanced tasks.</p>
+</main>
+
+<!-- AWS Section -->
+<main id="aws">
+    <h2>AWS</h2>
+    <ul>
+        <li>EC2 – Virtual Servers</li>
+        <li>S3 – Cloud Storage</li>
+        <li>RDS – Managed Databases</li>
+        <li>VPC – Virtual Private Cloud</li>
+        <li>IAM – Identity & Access Management</li>
+        <li>CloudWatch – Monitoring</li>
+    </ul>
+</main>
+
+<!-- Cloud Section -->
+<main id="cloud">
+    <h2>Cloud Computing</h2>
+    <ul>
+        <li>Public, Private, and Hybrid Clouds</li>
+        <li>Cloud Service Models – IaaS, PaaS, SaaS</li>
+        <li>Major Providers – AWS, Azure, Google Cloud</li>
+        <li>Scalability & Elasticity</li>
+    </ul>
+</main>
+
+<!-- Docker Section -->
+<main id="docker">
+    <h2>Docker</h2>
+    <ul>
+        <li>Introduction to Containers</li>
+        <li>Docker Installation & Setup</li>
+        <li>Docker Images & Containers</li>
+        <li>Docker Hub & Registries</li>
+        <li>Docker Compose</li>
+    </ul>
+</main>
+
+<!-- Kubernetes Section -->
+<main id="kubernetes">
+    <h2>Kubernetes</h2>
+    <ul>
+        <li>Kubernetes Architecture</li>
+        <li>Pods, Nodes, and Clusters</li>
+        <li>Deployments & Services</li>
+        <li>ConfigMaps & Secrets</li>
+        <li>Scaling & Auto-healing</li>
+    </ul>
+</main>
+
+<!-- Contact Section -->
+<main id="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> +91 7774943046</p>
+    <p><strong>Email:</strong> <a href="mailto:shrutipatil26112001@gmail.com">shrutipatil26112001@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shruti-patil-a49962220">https://www.linkedin.com/in/shruti-patil-a49962220</a></p>
+</main>
+
+<footer>
+    <p>© 2025 DevopsFuturescope.org | All Rights Reserved</p>
+</footer>
+
+<script>
+function showSection(sectionId) {
+    document.querySelectorAll('main').forEach(sec => sec.style.display = 'none');
+    document.getElementById(sectionId).style.display = 'block';
+}
+</script>
+
+</body>
+</html>
